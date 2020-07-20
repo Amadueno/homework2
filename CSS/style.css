@@ -1,0 +1,15 @@
+.Header  {
+    color:white;
+    background-color:teal;
+ 
+}
+.Tree {
+    float: left;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    text-align: left;
+    
+}
