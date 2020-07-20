@@ -1,22 +1,7 @@
-.Header  {
-    color:white;
-    background-color:teal;
-    font-size: x-large;
-    
-   
- 
-}
-
 
 p {
-    font-family: 'Oswald', sans-serif;
+    
     font-weight:bold;
     text-align: left;
     
-}
-@media only screen and (max-width:100px) {
-body {
-    width: 100%;
-
-}
 }
