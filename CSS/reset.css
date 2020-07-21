@@ -1,6 +1,6 @@
 * {
 	box-sizing:border-box;
-	background-color: lightgray;
+	background-color:whitesmoke;
 	border-color: teal;
 	font-family: 'Oswald', sans-serif;
 }
@@ -24,6 +24,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font-family: 'Oswald', sans-serif;
 	vertical-align: baseline;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

@@ -1,7 +1,13 @@
-
+.aboutMe {
+    color: teal;
+    font-size:medium;
+    font-weight: bold;
+}
 p {
-    
-    font-weight:bold;
-    text-align: left;
-    
+    color:teal;
+}
+@media only screen and (max-width:320px) {
+    #Bar {
+        background-color: blue;
+    }
 }
