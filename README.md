@@ -1,14 +1,10 @@
-# This is big
-## this is second big
-### this is third heading
 
-**This is bold text**
+# Homework #2
+*This was created by Adam Madueno*
+>create a user friendly portfolio page that has access to links and includes gird systems, as well as a navbar
 
-*This is italicized*
+**Used what I learned in class to create a mobile first device that would reflect what I learned**
+***Used HTML, CSS, and Bootstrap to help create the layout and forms you see in this page***
 
-**This is _ important _ text**
 
-~~This is mistaken text~~
 
-***This is uber important text***
-> this is box text 
