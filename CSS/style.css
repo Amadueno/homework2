@@ -6,7 +6,11 @@
 p {
     color:teal;
 }
-@media only screen and (max-width:320px) {
+
+
+    
+}
+@media only screen and (max-width:540px) {
     #Bar {
         background-color: blue;
     }
