@@ -9,6 +9,9 @@ p {
 body{
     background-color:navy;
 }
+.col-md-4{
+    color:darkgrey
+}
 .card{
   margin-top:2rem;
   width: 250px;
