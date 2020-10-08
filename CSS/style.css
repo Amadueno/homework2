@@ -1,10 +1,13 @@
 .aboutMe {
-    color: teal;
+    color:black;
     font-size:medium;
     font-weight: bold;
 }
 p {
-    color:teal;
+    color:black;
+}
+body{
+    background-color:whitesmoke
 }
 
 .submit {
