@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adams Page</title>
   <link rel="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="./CSS/style.css">
@@ -13,14 +14,14 @@
 
 <body>
   <!-- This is the start of the NavBar -->
-  <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
     <a id="Bar" class="navbar-brand " href="index.html">Adam Madueno</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <!-- Changed the text in the Navbar to my actual html links, also added link inside of href tag to redirect to clicked page -->
-    <aside class="collapse navbar-collapse" id="navbarText">
+    <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a id="Bar" class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
@@ -33,15 +34,19 @@
         </li>
       </ul>
       <span class="navbar-text"></span>
-    </aside>
+    </div>
   </nav>
   <!-- Created a image folder within my HW2 so I wuld be able to upload pictures from my phone to desktop -->
-  <img src="./Images/JoshuaTree.jpg" alt="Joshua Tree">
-  <h1 class="aboutMe">About Me</h1>
+  <!-- <img src="./Images/JoshuaTree.jpg" alt="Joshua Tree">
+  <h1 class="aboutMe">About Me</h1> -->
   <!-- This is a little synopsis of why I chose this career path -->
-  <p>Hello, this is a portfolio to showcase my projects as well as give you some insight on who I am. Chose web
-    development for the rewarding career that it can be, and I also find building websites form the ground up is
-    fascinating.</p>
+  <div id="jumbotron">
+    <h1 class="lead">Welcome to my portfolio</h1>
+    <p class="lead">I am a Full Stack Web Developer that just graduated from UCI's coding bootcamp.Cant wait to embark on my coding journey,and see what we can make together!</p>
+    <hr class="my-4">
+    <p class="lead">If you Would like to learn more about me and see my previous work, click the button below!</p>
+    <a class="btn btn-primary btn-lg" href="portfolio.html" role="button">Check out my previous work</a>
+  </div>
     <!-- This is the Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
