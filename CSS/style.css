@@ -37,10 +37,11 @@ body{
 .submit {
     background-color:teal;
 }
-#Bar {
-    color:darkblue;
+/* a {
+    color: inherit;
+    text-decoration: none;
 
-}
+} */
 #nav{
     background-color: gray;
 }
